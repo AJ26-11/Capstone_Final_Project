@@ -1,6 +1,6 @@
 import User from "../models/User.js"
 import bcrypt from "bcryptjs"
-"hgfhjfg"
+
 export const register = async (req,res,next)=>{
     try{
         const salt = bcrypt.genSaltSync(10);
