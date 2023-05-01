@@ -3,7 +3,7 @@ import Hotel from "../models/Hotel.js"
 import { createError } from "../utils/error.js";
 import { createHotel, deleteHotel, getHotel, getHotels, updateHotel } from "../controllers/hotel.js";
 
-"dsfsdfsdgsg"
+
 
 const router = express.Router();
 
